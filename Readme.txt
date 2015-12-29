@@ -8,9 +8,20 @@ INSTRUCTIONS TO EXECUTE:
 1) Install L3DT
 2) Run "Gridgeneration.exe"
 3) Choose mode of operation as necessary (description of modes provided below)
+4) Recommended to use the machine learning mode.
+5) When L3DT opens up, and the user must select which heightmap to import. Navigate to the directory of 'gridgeneration.exe'. By default the heightmap is called 'output.bmp'. After selection, the heightmap is displayed as is.
+6) The last icon on the right of the toolbar is a '3D' button.
+7) When clicked, it shows the user a 3D visualization of the heightmap itself.
+8) Use this visualization to determine whether the output is satisfactory.
+9) Close L3DT and the program will ask if the output is satisfactory or not.
+10) If 'Yes' is selected, the program refines the output, and repeats steps 5 - 9.
+11) If 'No' is selected, the program will ask what changes should be made to the heightmap. The changes are described in the nature of terrain desired i.e. Flat, Hilly, Mountainous.
+After this, the steps 5 - 9 are repeated.
+12) If 'Finalize' is selected L3DT opens up once again, asks which heightmap to import, and then what to name the exported Photoshop RAW file. 
+13) The exported RAW file can be imported into Unreal, Unity etc. and used to create terrain.
 
 Note : Whenever a change is made (Flat, Hilly, Mountainous) the initial output can look quite rough due to the random values being generated. 
-This can be improved by selecting 'Yes' when presented the option. The machine learning kicks in here and adjusts values accordingly.
+This can be improved by selecting 'Yes' when presented the option. The machine learning kicks in here and adjusts values accordingly, smoothening out the randomness 
 
 DOCUMENTATION:
 
